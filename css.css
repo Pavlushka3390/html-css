@@ -634,13 +634,17 @@ body {
 }
 
 .copyrights {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 26px;
+}
+
+.copyrights-link {
+  text-decoration: none;
   font-family: opensans-bold, Arial, sans-serif;
   line-height: 3.33;
   color: #888888;
   font-size: 12px;
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 26px;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -653,6 +657,7 @@ body {
   }
   .header {
     background-image: url("images/banner-bg-tablet.jpg");
+    background-repeat: no-repeat;
   }
 
   .header-container {
@@ -811,6 +816,7 @@ body {
 @media (min-width: 1200px) {
   .header {
     background-image: url("images/banner-bg.jpg");
+    background-repeat: no-repeat;
   }
 
   .header-box {
