@@ -658,6 +658,7 @@ body {
   .header {
     background-image: url("images/banner-bg-tablet.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .header-container {
@@ -817,6 +818,7 @@ body {
   .header {
     background-image: url("images/banner-bg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .header-box {
