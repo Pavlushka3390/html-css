@@ -304,7 +304,7 @@ body {
   line-height: 1.42;
 }
 
-/* Ð‘Ð›ÐžÐš ÑÐ°Ð¹Ð´Ð±Ð°Ñ€ */
+
 .sidebar-caption-title {
   font-family: opensans-bold, Arial, sans-serif;
   font-size: 16px;
@@ -476,7 +476,7 @@ body {
   color: #000000;
 }
 
-/* Ð‘Ð›ÐžÐš Ñ‚ÐµÐ¼Ñ‹ */
+
 .categores-list {
   padding: 0;
 }
@@ -545,13 +545,13 @@ body {
 
 .product-price {
   font-family: opensans-bold;
-  font-size: 2.5vw;
+  font-size: 20px;
 }
 
 .old-price {
   text-decoration: line-through;
   font-family: opensans-bold, Arial, sans-serif;
-  font-size: 2vw;
+  font-size: 17px;
 }
 
 .product-prices {
@@ -567,7 +567,7 @@ body {
   height: 50px;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 2vw;
+  font-size: 17px;
   background-color: #b59f5b;
 }
 .product-button:hover {
@@ -795,7 +795,15 @@ body {
   .subscribe-field {
     width: 100%;
   }
-
+  .tag-link{
+    font-size: 1.6vw;
+    padding-left: 1.6vw;
+    padding-right: 1.6vw;
+  }
+  .tag-list-item {
+    margin-top: 0.5vw;
+    margin-right: 0.5vw;
+  }
   .products {
     display: flex;
     flex-wrap: wrap;
@@ -816,6 +824,15 @@ body {
 
   .product:nth-child(n + 3) {
     margin-top: 3vw;
+  }
+  .product-price {
+    font-size: 2.5vw;
+  }
+  .old-price {
+    font-size: 2vw;
+  }
+  .product-button {
+    2vw
   }
 }
 
