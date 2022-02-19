@@ -16,7 +16,7 @@ html {
 }
 body {
   margin: 0;
-  min-width: 700px;
+  min-width: 641px;
 }
 
 .header {
@@ -545,13 +545,13 @@ body {
 
 .product-price {
   font-family: opensans-bold;
-  font-size: 20px;
+  font-size: 2.5vw;
 }
 
 .old-price {
   text-decoration: line-through;
   font-family: opensans-bold, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 2vw;
 }
 
 .product-prices {
@@ -567,7 +567,7 @@ body {
   height: 50px;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 2vw;
   background-color: #b59f5b;
 }
 .product-button:hover {
@@ -647,13 +647,13 @@ body {
   font-size: 12px;
 }
 
-@media (min-width: 700px) and (max-width: 1199px) {
+@media (min-width: 641px) and (max-width: 1199px) {
   .trends-container,
   .content-field,
   .categores-container,
   .products-container,
   .footer {
-    margin-top: 50px;
+    margin-top: 1vw;
   }
   .header {
     background-image: url("images/banner-bg-tablet.jpg");
@@ -667,7 +667,7 @@ body {
   }
 
   .header-logo {
-    width: 182px;
+    width: 19.7vw;
   }
 
   .menu-list {
@@ -684,20 +684,21 @@ body {
   }
 
   .menu-link {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
+  
 
   .menu-list-item {
-    padding-left: 30px;
-    padding-bottom: 20px;
+    padding-left: 3vw;
+    padding-bottom: 2.5vw;
   }
 
   .welcome-title {
-    max-width: 620px;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.37;
-    font-size: 40px;
+    line-height: 1.4em;
+    font-size: 5vw;
     padding: 100px 42px 100px 42px;
   }
 
@@ -705,15 +706,16 @@ body {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 7vw;
   }
 
   .title-bigline {
-    font-size: 18px;
+    font-size: 2vw;
   }
 
   .trend-title-link {
-    font-size: 17px;
-    line-height: 1.29;
+    font-size: 2.5vw;
+    line-height: 1.2em;
   }
 
   .trend {
@@ -728,7 +730,7 @@ body {
   }
 
   .trend-info {
-    margin: 18px;
+    margin: 2vw;
     padding: 0px 10px 15px 20px;
   }
 
@@ -736,16 +738,16 @@ body {
     border-bottom: 2px solid #eeeeee;
   }
   .post:nth-child(n + 2) {
-    margin-top: 40px;
+    margin-top: 5vw;
   }
 
   .post-title-link {
-    font-size: 17px;
+    font-size: 2.2vw;
   }
 
   .post-text {
-    font-size: 15px;
-    line-height: 1.46;
+    font-size: 2vw;
+    line-height: 1.4em;
   }
 
   .post-img {
@@ -753,7 +755,7 @@ body {
   }
 
   .container {
-    margin: 0 20px;
+    margin: 0 2.5vw;
   }
 
   .content-field {
@@ -771,15 +773,15 @@ body {
     width: 40%;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 4vw;
   }
 
   .sidebar-caption-title {
-    font-size: 14px;
+    font-size: 2.2vw;
   }
 
   .latest-title-link {
-    font-size: 12px;
+    font-size: 1.8vw;
   }
 
   .search-group {
@@ -803,13 +805,17 @@ body {
   .product {
     width: 46%;
   }
+  .product-discription {
+    font-size: 2vw;
+    line-height: 1.4em;
+  }
 
   .product-img {
     width: 100%;
   }
 
   .product:nth-child(n + 3) {
-    margin-top: 28px;
+    margin-top: 3vw;
   }
 }
 
