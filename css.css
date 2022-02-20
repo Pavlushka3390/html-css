@@ -647,7 +647,8 @@ body {
   font-size: 12px;
 }
 
-@media (min-width: 641px) and (max-width: 1199px) {
+
+@media (max-width: 1199px) {
   .trends-container,
   .content-field,
   .categores-container,
